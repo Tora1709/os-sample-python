@@ -20,7 +20,7 @@ def msg():
     to = request.form['to']
     return str(to)
 
-@app.route('/sendmsg')
+@app.route('/message')
 def sendmsg():
     to = request.args.get('to')
     msg = request.args.get('msg')
