@@ -13,7 +13,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
 
-    return 'Hello World!'
+    return 'Hola mundo'
 
 @app.route('/msg', methods = ['POST'])
 def msg():
