@@ -1,2 +1,4 @@
 gunicorn
 Flask
+pywhatsapp
+yowsup2
